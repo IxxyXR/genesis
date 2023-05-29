@@ -217,6 +217,187 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &946425931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762786, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762814, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_Name
+      value: Skybox
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046425571121762814, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+--- !u!1 &946425932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2046425571121762814, guid: c75cad606cc3dd24ca76cd52c30a58c6, type: 3}
+  m_PrefabInstance: {fileID: 946425931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &946425933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946425932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c37ee5440861a47884a14ba990aa23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiKey: 
+  assignToMaterial: 1
+  skyboxStyleFields:
+  - key: prompt
+    name: Prompt
+    value: A haunted graveyard in the swamps of the deep south
+  - key: negative_text
+    name: Negative text
+    value: 
+  - key: seed
+    name: Seed
+    value: 0
+  skyboxStyles:
+  - id: 5
+    name: Digital Painting
+  - id: 9
+    name: Realistic
+  - id: 3
+    name: Anime Art Style
+  - id: 2
+    name: Fantasy Lands
+  - id: 13
+    name: Advanced (no style)
+  - id: 10
+    name: SciFi
+  - id: 35
+    name: Cyberpunk
+  - id: 20
+    name: Modern Computer Animation
+  - id: 6
+    name: Scenic
+  - id: 11
+    name: Dreamlike
+  - id: 17
+    name: Oil Painting
+  - id: 25
+    name: Manga
+  - id: 16
+    name: Sky
+  - id: 15
+    name: Interior Views
+  - id: 4
+    name: Surreal Style
+  - id: 22
+    name: Watercolor
+  - id: 7
+    name: Nebula
+  - id: 24
+    name: Pen & Ink
+  - id: 23
+    name: Technical Drawing
+  - id: 19
+    name: Low Poly
+  - id: 26
+    name: Interior Archviz
+  - id: 29
+    name: Cartoon
+  - id: 30
+    name: Storybook
+  - id: 31
+    name: Claymation
+  - id: 32
+    name: Super Art
+  - id: 33
+    name: Holographic
+  - id: 34
+    name: CG Film
+  - id: 18
+    name: Infrared Photography
+  - id: 28
+    name: testing
+  skyboxStyleOptions:
+  - Digital Painting
+  - Realistic
+  - Anime Art Style
+  - Fantasy Lands
+  - Advanced (no style)
+  - SciFi
+  - Cyberpunk
+  - Modern Computer Animation
+  - Scenic
+  - Dreamlike
+  - Oil Painting
+  - Manga
+  - Sky
+  - Interior Views
+  - Surreal Style
+  - Watercolor
+  - Nebula
+  - Pen & Ink
+  - Technical Drawing
+  - Low Poly
+  - Interior Archviz
+  - Cartoon
+  - Storybook
+  - Claymation
+  - Super Art
+  - Holographic
+  - CG Film
+  - Infrared Photography
+  - testing
+  skyboxStyleOptionsIndex: 9
+  imagineObfuscatedId: adbd2e322db391737f412fbbd1a61d68
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +409,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -294,10 +476,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Device: 0
+  m_PoseSource: 2
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
