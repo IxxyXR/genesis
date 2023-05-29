@@ -1,0 +1,28 @@
+{
+  "name": "com.blockadelabs.sdk",
+  "version": "1.4.1",
+  "displayName": "Blockade Labs SDK",
+  "description": "Create stunning AI-generated skybox assets within Unity for use as HDRIs in game dev and immersive projects.",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0",
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "keywords": [
+    "ai",
+    "skybox",
+    "generator"
+  ],
+  "samples": [
+    {
+      "displayName": "Assets",
+      "description": "Contains sample assets",
+      "path": "Samples~/Assets"
+    },
+    {
+      "displayName": "Scenes",
+      "description": "Contains sample scenes",
+      "path": "Samples~/Scenes"
+    }
+  ]
+}
